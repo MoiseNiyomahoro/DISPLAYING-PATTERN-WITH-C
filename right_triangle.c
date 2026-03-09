@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nvoid printRightTriangle(int n) {\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= i; j++) {\n            printf("* ");\n        }\n        printf("\n");\n    }\n}\n\nint main() {\n    int n;\n    printf("Enter the number of rows: ");\n    scanf("%d", &n);\n    printRightTriangle(n);\n    return 0;\n}\n
